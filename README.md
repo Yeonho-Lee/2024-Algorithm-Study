@@ -2,8 +2,8 @@
 
 > 코딩 테스트 준비를 위한 스터디입니다.
 
--   기간: 2024년 3월~
--   정기 회의: ?
+-   기간: 2024년 9월~
+-   정기 회의: 금요일 오전 8시30분 (10/10 까지)
 -   참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/)
 -   언어: Java, C++
 
