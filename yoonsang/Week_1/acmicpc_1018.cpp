@@ -33,4 +33,5 @@ int main(){
 
 // solved at: 2024. 09. 18. 16:00:59
 //                 Difficulty : Silver 4
+//             Algorithm Type : Brute Force
 // solved.ac Tier: 0,487(+06) : Silver 3
