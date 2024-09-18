@@ -35,11 +35,37 @@
 -   만약 주차에 해당하는 문제 풀이가 미완료 시, 회의 당일에 직접 문제 풀이 진행해야 함.
 -   끝날 때까지 회의는 끝나지 않음..(열심히 하자..다른 사람을 생각하며)
 
-## PR 규칙 및 Commit Message 규칙
+## 깃 이용 방식
+#### 최초 세팅 - 아이디와 이메일
+```
+$ git config --global user.name "깃허브아이디"
+$ git config --global user.email "이메일"
+```
+#### 최초 세팅 - 깃 클론하기
+```
+// 보내드린 링크 가서 복사 해오면 -> 저장하고 싶은 위치에서 터미널에 입력
+$ git clone https://github.com/아이디/저장소이름.git
+```
+#### 깃 브랜치 만들기
+```
+$ git branch (브랜치 이름) // local branch 만들기
+$ git switch (브랜치 이름) // 작업 중인 branch 바꾸기
+```
 
-#### Pull Request
+#### 깃 작업하기
+```
+$ git pull
+// 작업하기 전에 해줘야 함
 
-#### Commit Message
+$ git add .
+// 작업한 것들을 모두 staging area로 올림
+$ git commit -m "커밋 메세지"
+$ git push // 안되면 $ git push -u origin/(브랜치 이름)
+// 커밋한 것들을 repository에 반영시
+```
+
+이후에 github 들어가서 pull request 생성하기! -> 주차별로 한번씩
+comment 받은 후에 squash merge
 
 ## 파일 및 폴더 구조
 
