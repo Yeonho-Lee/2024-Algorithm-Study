@@ -27,6 +27,6 @@ int main(){
     printf("%d",minimum);
 }
 
-// 19트에 해결 | WA 5 | RTE 0 | CTE 9 | TLE 4
+// 19트에 해결 | WA 5 | CTE 9 | TLE 4
 //   백준 티어 : S4
 // 오랜만에 C++ 잡아서 파이썬식 문법을 자주 씀.. print(minimum)도 그렇고 배열 대괄호로 초기화함

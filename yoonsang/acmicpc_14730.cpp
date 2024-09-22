@@ -12,7 +12,7 @@ int main(){
     printf("%d", result);
 }
 
-//  3트에 해결 | WA 0 | RTE 0 | CTE 2 | TLE 0
+//  3트에 해결 | CTE 2 
 //   백준 티어 : S5
 // 굳
 // B3~B4정도에 있어도 될 난도
