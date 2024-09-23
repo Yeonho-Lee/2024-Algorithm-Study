@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class P14921_solution {
+    //
     static int N;
     static int[] A;
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
