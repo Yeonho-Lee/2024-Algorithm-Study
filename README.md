@@ -15,8 +15,8 @@
     1. 개념+알고리즘+풀이 방식 자세하게 설명하기.
     2. 만약 상대가 이해 못하면 이해할 때까지 설명해야 함.
 2. 깃허브 활용해서 Pull Request로 코드 리뷰 진행함.
-    1. 각자 코드는 화요일까지 올리고 PR 날리기.
-    1. 서로에 대한 코드 리뷰는 수요일까지 완료하기.
+    1. 각자 코드는 수요일까지 올리고 PR 날리기.
+    1. 서로에 대한 코드 리뷰는 목요일까지 완료하기.
     1. 반드시 코드 리뷰 후에 main branch로 merge.
     1. 기본적으로 올릴 때는 각자 이름으로 된 branch에 올림.
 3. 코드 리뷰 받은 것에 대해서는 다음 회의 전까지 수정해서 다시 깃허브에 올리기.
@@ -53,18 +53,20 @@ $ git config --global user.email "이메일"
 $ git clone https://github.com/아이디/저장소이름.git
 ```
 
-#### 깃 브랜치 만들기
+#### 깃 브랜치 관련 커맨드
 
 ```
 $ git branch (브랜치 이름) // local branch 만들기
 $ git switch (브랜치 이름) // 작업 중인 branch 바꾸기
+$ git branch -D (브랜치 이름) // branch 지우기, 지우려는 브랜치가 아닌 브랜치로 변경 후 해야 함
+// merge 후에 꼭 브랜치 지운 후에 main에서 다시 branch 따서 진행해주세요
 ```
 
 #### 깃 작업하기
 
 ```
 $ git pull
-// 작업하기 전에 해줘야 함
+// merge를 한 후에 main branch에서 pull해야 함
 
 $ git add . // 작업한 것들을 모두 staging area로 올림
 
@@ -75,8 +77,17 @@ $ git push // 커밋한 것들을 repository에 반영시
 
 ```
 
-이후에 github 들어가서 pull request 생성하기! -> 주차별로 한번씩
-comment 받은 후에 squash merge
+#### 작업 플로우
+
+1. main에서 branch 따기
+1. 그 branch 로 이동 후
+1. 코드 작성
+1. git add . (또는 source control 에서 +)
+1. git commit -m "(커밋 메세지)"
+1. git push (또는 sync 버튼)
+1. 일주일치 코드 작성이 끝나면 github -> 본인 브랜치에서 pull request 생성
+1. 코멘트 받은 후 squashmerge
+   (선택)4~6은 매번 해도 되고 한 번에 올리셔도 됩니다!
 
 ## 파일 및 폴더 구조
 
@@ -86,7 +97,7 @@ yoonsang/Week_1/prob.cpp
 
 eunji/Week_1/prob.cpp
 
-gunwoo/Week_1/prob.cpp or java
+gunwoo/Week_1/prob.cpp
 
 ## 일정표
 
