@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class P1253_Good {
+    //
     static int N;
     static int[] A;
 
