@@ -52,13 +52,13 @@ public class P14888_InsertOperators {
                     case 0: // +
                         tempResult += numbers[n + 1];
                         break;
-                    case 1:
+                    case 1: // -
                         tempResult -= numbers[n + 1];
                         break;
-                    case 2:
+                    case 2: // x
                         tempResult *= numbers[n + 1];
                         break;
-                    case 3:
+                    case 3: // /
                         tempResult /= numbers[n + 1];
                         break;
                     default:
