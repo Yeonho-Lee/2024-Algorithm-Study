@@ -51,3 +51,39 @@ int main(){
 // 미해결, Merge Sort 연습 겸 구현하고 이것저것 추가해서 하려는데 어렵다
 // 기본적으로 Merge Sort와 같은데 숫자 대소 판단 부분을 문자열 판단 함수로 따로 빼서 구분함
 // 다 잘 되는데 temp로 옮기고 이리저리 옮기는 과정에서 글자 길이 이슈로 출력이 itre 이렇게 됨
+
+// week4에서 다른 방법으로 추가 구현 시도
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+// 정렬된 문자 배열
+char a[20002][50];
+
+// arr[n]은 문자열 길이가 n인 문자열의 a 배열에서의 시작 포인터
+int arr[52]={0,};
+
+// insert 구현(구현 연습 위해 내장 함수 사용하지 않음)
+// 문자열 temp와 배열의 길이 i를 받아 배열 위치에 삽입
+void insert(char temp[], size_t size, int i){
+    for(int j=i;j>arr[strlen(temp)];j--){
+        strcpy(a[j], a[j-1]);
+    }
+    strcpy(a[arr[strlen(temp)]], temp);
+    for(int j=arr[strlen(temp)]+1;j<52;j++) arr[j]++;
+}
+
+int main(){
+    int n;
+    char temp[50];
+    scanf("%d", &n);
+    for(int i=0;i<n;i++){
+        scanf("%s", temp);
+        insert(temp, strlen(temp), i);
+    }
+    for(int i=1;i<51;i++){
+        if(arr[i]-arr[i-1]==0) continue;
+        for(int j=arr[i];j<arr[i+1];j++){
+            
+        }
+    }
+}
