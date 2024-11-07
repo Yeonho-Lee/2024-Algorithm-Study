@@ -40,5 +40,6 @@ int main(){
         if(strcmp(a[i+1], a[i])!=0) printf("%s\n", a[i]);
     }
 }
+
 // 야매 Merge Sort
 // Merge Sort의 나누는 과정 생략하고 size=1부터 합치는 식으로 진행함
