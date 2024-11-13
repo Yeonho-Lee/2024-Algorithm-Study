@@ -1,10 +1,10 @@
-주 5문제, 3일 이상 풀이 목표<br>(Week 1-2) B1 이상 난도 문제만 셈<br>(Week 3-7) 난도 S5 이상, Div2 B 이후 문제만 셈<br>(Week 8-) 난도 S4 이상, Div2 B 이후 문제만 셈
+주 5문제, 3일 이상 풀이 목표<br>
+(Week 1-2) B1 이상 난도 문제만 셈<br>
+(Week 3-7) 난도 S5 이상, Div2 B 이후 문제만 셈<br>
+(Week 8-) 난도 S4 이상, Div2 B 이후 문제만 셈
 
-** todo
- :: C++에서 구조체와 클래스 배우기<br>
- :: C++ string 사용법 배우기<br>
- :: ios_base::sync_with_stdio(false); cin.tie(NULL); ( fast I/O ) 학습 <br>
-    ^^ 학습했는데 cout, cin 너무 정신사나워요
+** todo<br>
+ :: C++에서 구조체와 클래스 배우기
 
 | **Week** | **문제** | **난이도** | **해결일** |
 | -------- | -------- | --------- | ---------- |
@@ -15,3 +15,4 @@
 | <p align="center">5</p> | [acmicpc11650: 좌표 정렬하기](https://www.acmicpc.net/problem/11650)<br>[acmicpc11651: 좌표 정렬하기](https://www.acmicpc.net/problem/11651)<br>[acmicpc1920: 수 찾기](https://www.acmicpc.net/problem/1920)<br>[acmicpc4949: 균형잡힌 세상](https://www.acmicpc.net/problem/4949)<br>[acmicpc9012: 괄호](https://www.acmicpc.net/problem/9012)<br>[acmicpc10773: 제로](https://www.acmicpc.net/problem/10773)<br>[acmicpc10816: 숫자 카드 2](https://www.acmicpc.net/problem/10816)<br>[acmicpc10828: 스택](https://www.acmicpc.net/problem/10816) |<p align="center"> S5<br>S5<br>S4<br>S4<br>S4<br>S4<br>S4<br>S4 </p> | <p align="center"> 241022<br>241022<br>241022<br>241022<br>241022<br>241022<br>241022<br>241023 </p> |
 | <p align="center">6</p> | [acmicpc10845: 큐](https://www.acmicpc.net/problem/10845)<br>[acmicpc11866: 요세푸스 문제 0](https://www.acmicpc.net/problem/11866)<br>[acmicpc18110: solved.ac](https://www.acmicpc.net/problem/18110)<br>[CF_Edu171B: Black Cells](https://codeforces.com/contest/2026/problem/B)<br>[acmicpc1966: Printer Queue](https://www.acmicpc.net/problem/1966)<br>[acmicpc2108: 통계학](https://www.acmicpc.net/problem/2108) |<p align="center"> S4<br>S4<br>S4<br>*1300<br>S3<br>S3 </p> | <p align="center"> 241027<br>241027<br>241028<br>241029<br>241029<br>241030 </p> |
 | <p align="center">7</p> | [acmicpc18870: 좌표 압축](https://www.acmicpc.net/problem/18870)<br>[acmicpc1654: 랜선 자르기](https://www.acmicpc.net/problem/1654)<br>[acmicpc1874: 스택 수열](https://www.acmicpc.net/problem/1874)*AC?*<br>[acmicpc11723: 집합](https://www.acmicpc.net/problem/11723)<br>[acmicpc10815: 숫자 카드](https://www.acmicpc.net/problem/10815) |<p align="center"> S2<br>S2<br>S2<br>S5<br>S5 </p> | <p align="center"> 241105<br>241105<br>241106<br>241106<br>241106 </p> |
+| <p align="center">8</p> | [acmicpc11399: ATM](https://www.acmicpc.net/problem/11399)<br>[acmicpc1620: 나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)<br>[acmicpc1764: 듣보잡](https://www.acmicpc.net/problem/1764)<br>[acmicpc14425: 문자열 집합](https://www.acmicpc.net/problem/14425)<br>[acmicpc11478: 서로 다른 부분 문자열의 개수](https://www.acmicpc.net/problem/11478)<br>~~acmicpc1764: 듣보잡~~*미해결*<br>[acmicpc11047: 동전 0](https://www.acmicpc.net/problem/11047)<br>[acmicpc17219: 비밀번호 찾기](https://www.acmicpc.net/problem/17219)<br>[acmicpc2579: 계단 오르기](https://www.acmicpc.net/problem/2579)<br>[acmicpc2606: 바이러스](https://www.acmicpc.net/problem/2606) |<p align="center"> S4<br>S4<br>S4<br>S4<br>S3<br>G3<br>S4<br>S4<br>S3<br>2606 </p> | <p align="center"> 241108<br>241112<br>241112<br>241112<br>241112<br>-<br>241113<br>241113<br>241113<br>241113 </p> |
