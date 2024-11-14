@@ -68,6 +68,7 @@ public class P16933_breakingWall3 {
         while (!queue.isEmpty()) {
             Position current = queue.poll();
 
+            // 만약 도착점이라면 Position에 포함되어 있는 거리값을 return
             if (current.row == N - 1 && current.col == M - 1) {
                 return current.distance;
             }
