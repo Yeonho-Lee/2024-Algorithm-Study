@@ -89,6 +89,16 @@ $ git push // 커밋한 것들을 repository에 반영시
 1. 코멘트 받은 후 squashmerge
    (선택)4~6은 매번 해도 되고 한 번에 올리셔도 됩니다!
 
+```bash
+git switch main
+git pull
+// git branch - 원래 있었던 branch들 이름을 확인할 수 있음
+git branch -D {원래 브랜치 이름}
+git branch {새로 딸 브랜치 이름}
+git switch {새로 딴 브랜치 이름]
+```
+
+
 ## 파일 및 폴더 구조
 
 yeonho/Week_1/prob.java
