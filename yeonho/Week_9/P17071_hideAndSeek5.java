@@ -55,6 +55,9 @@ public class P17071_hideAndSeek5 {
                     return -1;
                 if (visited[sibling][subin.time % 2])
                     return subin.time;
+                // 2초에 x=3을 방문했으면
+                // 3초 x=4
+                // 4초 x=3
 
                 int[] nextPos = { subin.pos + 1, subin.pos - 1, subin.pos * 2 };
                 for (int j = 0; j < 3; j++) {

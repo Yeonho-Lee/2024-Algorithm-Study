@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class P20304_makingPassword_ {
+public class P20304_makingPassword_test {
     static int N; // 0 - 1_000_000
     static int M; // 1 - 100_000
     static int[] attemptedPasswords; // 0 - N
