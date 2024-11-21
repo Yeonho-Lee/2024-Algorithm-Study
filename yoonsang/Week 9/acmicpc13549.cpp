@@ -4,21 +4,22 @@
 using namespace std;
 queue<array<int, 2>> q;
 int n,k,a[100001]={};
-int bfs(int n, int k) {
+int bfs(int n, int k) { // n: 수빈의 위치, k: 동생의 위치
     q.push({n, 0});
     int minimum=99999;
     while(!q.empty()){
-        int p = q.front()[0], pp=q.front()[1];
+        int p = q.front()[0], pp = q.front()[1];
         if(p==k) {
             minimum = min(minimum, pp%100000);
             q.pop();
             continue;
         }
-        if(p!=0 && (a[p-1]==0 || pp+1<a[p-1]%100000)) { q.push({p-1, pp+1}); a[p-1]=pp+1+100000; }
-        if(p!=100000 && (a[p+1]==0 || pp+1<a[p+1]%100000)) { q.push({p+1, pp+1}); a[p+1]=pp+1+100000; }
-        if(p<=50000 && (a[2*p]==0 || pp<a[2*p]%100000)) { q.push({2*p, pp}); a[2*p]=pp+100000; }
+        if(p!=0 && (a[p-1]==0       || pp+1<a[p-1]%100000)) { q.push({p-1, pp+1}); a[p-1]=pp+1+100000; }
+        if(p!=100000 && (a[p+1]==0  || pp+1<a[p+1]%100000)) { q.push({p+1, pp+1}); a[p+1]=pp+1+100000; }
+        if(p<=50000 && (a[2*p]==0   || pp<a[2*p]%100000))   { q.push({2*p, pp});   a[2*p]=pp+100000; }
         q.pop();
     }
+ 
     a[n]=0;
     return minimum;
 }
