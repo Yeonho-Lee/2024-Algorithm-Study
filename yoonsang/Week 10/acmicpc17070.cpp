@@ -30,3 +30,4 @@ int main() {
     }
     cout << dp[n][n][0]+dp[n][n][1]+dp[n][n][2];
 }
+//
