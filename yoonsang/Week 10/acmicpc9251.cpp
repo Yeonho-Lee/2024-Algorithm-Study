@@ -14,4 +14,3 @@ int main(){
     }
     cout << arr[a.length()][b.length()];
 }
-//
