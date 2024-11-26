@@ -2,7 +2,7 @@
 #include <vector>
 #include <array>
 using namespace std;
-int n, temp[3], maxsum=0;
+int n, temp[3], maxsum = 0;
 vector<array<int, 2>> v[10001];
 int dfs(int node){
     if(v[node].size()==0) return 0;

@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-int n, m, a[18][18]={}, temp;
+int n, m, a[18][18] = {}, temp;
 long long dp[17][17][3]={}; // 행, 열, 자세
 int main() {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
@@ -29,4 +29,4 @@ int main() {
         }
     }
     cout << dp[n][n][0]+dp[n][n][1]+dp[n][n][2];
-} 
+}
