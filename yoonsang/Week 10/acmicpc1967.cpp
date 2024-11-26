@@ -23,7 +23,7 @@ int main() {
     cin >> n;
     for(int i=0;i<n-1;i++){
         for(int j=0;j<3;j++) cin >> temp[j];
-        v[temp[0]].push_back({temp[1], temp[2]}); // next, cost
+        v[temp[0]].push_back({temp[1], temp[2]});
     }
     int c=dfs(1);
     cout << max(maxsum, c);

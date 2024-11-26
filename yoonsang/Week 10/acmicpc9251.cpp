@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-int arr[1001][1001]={};
+int arr[1001][1001]={}; 
 string a,b;
 int main(){
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
