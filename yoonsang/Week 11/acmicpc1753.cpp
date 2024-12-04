@@ -13,7 +13,7 @@ void dijkstra(int node){
         cost = q.top()[0], now=q.top()[1];
         q.pop();
         if(cost>dis[now]) continue;
-        for(auto i:graph[now]){
+        for(auto i:graph[now]){ // for i in graph[now]: 
             nnext=i[0], ncost=dis[now]+i[1];
             if(ncost<dis[nnext]) {
                 dis[nnext]=ncost;
