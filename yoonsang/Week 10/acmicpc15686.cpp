@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-int n,m, temp, sum=1000000, home[101][2]={}, dis[101][14]={}, chicken[14][2]={}, homecnt=0, chickencnt=0, a[14]={};
+int n,m, temp, sum=1000000, home[101][2]={}, dis[101][14]={}, chicken[14][2]={}, homecnt=0, chickencnt=0, a[14] = {};
 // home: i번째 집의 위치(k), dis: i번째 집의 j번째 치킨집과의 거리, chicken: i번째 치킨집의 위치(k)
 bool visited[14]={};
 void backtracking(int d){

@@ -7,7 +7,7 @@ using namespace std;
 int n,e,temp[3],mid[2],dis[801],cost,curr,ncity,ncost;
 long long sum[6];
 vector<array<int, 2>> graph[801];
-void shortest(int init){ // type=0: 안지남, type=1: 지남
+void shortest(int init){
     priority_queue<array<int, 2>, vector<array<int, 2>>, greater<array<int, 2>>> q;
     q.push({0, init});
     while(!q.empty()){
@@ -34,6 +34,12 @@ int main() {
     }
     cin >> mid[0] >> mid[1];
     int dest[3][3]={{1,mid[0],mid[1]},{mid[0],mid[1],n},{mid[1],mid[0],n}};
+    // 1에서 출발해서 mid[0] -> mid[1] -> n
+    // 1에서 출발해서 mid[1] -> mid[0] -> n
+
+    // 1 -> mid[0], mid[1]
+    // mid[0] -> mid[1], n
+    // mid[1] -> mid[0], n
     for(int i=0;i<3;i++){
         for(int i=1;i<=800;i++) dis[i]=2100000001;
         dis[dest[i][0]]=0;
@@ -41,12 +47,13 @@ int main() {
         sum[2*i]=dis[dest[i][1]];
         sum[2*i+1]=dis[dest[i][2]];
     }
-    long long tempsum=sum[0]+sum[2]+sum[5];
-    if(tempsum>sum[1]+sum[4]+sum[3]) tempsum=sum[1]+sum[4]+sum[3];
+    long long tempsum=(long long)(sum[0])+sum[2]+sum[5];
+    if(tempsum>sum[1]+sum[4]+sum[3]) tempsum=(long long)(sum[1])+sum[4]+sum[3]; // sum을 int로 선언해도 이렇게 하면 됨!
     if(tempsum>2100000000) cout << -1;
     else cout << tempsum;
 }
 
 // sum이 int일 때
 // tempsum=sum[0]+sum[2]+sum[5];는 sum[0], sum[2], sum[5]를 먼저 int에서 더하고 long long으로 바꾸기 때문에 overflow 가능성 존재함
+// tempsum+=sum[0]; tempsum+=sum[2];
 // 신기한거 하나 알아가네요....
