@@ -41,5 +41,6 @@ public class P2011_passwordCode_answer {
         }
 
         System.out.println(dp[size]);
+        sc.close();
     }
 }
