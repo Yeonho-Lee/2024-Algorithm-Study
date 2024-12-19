@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int n, k, a[101][2], weight=0, value=0, maxvalue=0;
-bool collected[101]={};
+bool collected[101] = {};
 void backtracking(int d){
     if(d==n) return;
     for(int i=d;i<n;i++){
