@@ -36,6 +36,13 @@ public class P11054_longestBitonic {
                 }
             }
         }
+        // example
+        // 1 5 2 1 4 3 4 5 2 1
+        // LIS[0] = 1
+        // LIS[1] = 2
+        // LIS[2] = 2
+        // LIS[3] = 1
+        // LIS[4] = 2 -> 3
 
         // 2. Calculate LDS
         for (int i = N - 1; i >= 0; i--) {

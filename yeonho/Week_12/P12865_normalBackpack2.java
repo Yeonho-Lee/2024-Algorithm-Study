@@ -37,6 +37,7 @@ public class P12865_normalBackpack2 {
     static void knapsack() {
         for (int i = 1; i <= N; i++) {
             for (int k = K; k >= W[i]; k--) {
+                // dp[k] = 배낭의 허용무게가 k일 때 최대 가치
                 dp[k] = Math.max(dp[k], V[i] + dp[k - W[i]]);
             }
         }
