@@ -5,15 +5,15 @@ int main(){
     int n,m,minimum=64,cnt,temp;
     char a[50][50];
     
-    // pattern set
+    // 패턴잡고      | [8][8]하니까 오류 뱉던데 왜그런지 몰라서 배열공부 다시 해야함
     char b[8][9]={"WBWBWBWB","BWBWBWBW","WBWBWBWB","BWBWBWBW","WBWBWBWB","BWBWBWBW","WBWBWBWB","BWBWBWBW"};
     char b1[8][9]={"BWBWBWBW","WBWBWBWB","BWBWBWBW","WBWBWBWB","BWBWBWBW","WBWBWBWB","BWBWBWBW","WBWBWBWB"};
     
-    // data input
+    // 데이터 넣고
     scanf("%d %d", &n, &m);
     for(int i=0;i<n;i++) scanf("%s", a[i]);
     
-    // compare arr 'a'(in each 8x8) to the pattern sets and check how different
+    // 입력받은 데이터에서 8*8 사이즈로 하나씩 돌려가면서 잡아둔 패턴이랑 얼마나 다른지 확인함
     for(int i=0;i<=n-8;i++) for(int j=0;j<=m-8;j++){
         cnt=0;
         for(int k=0;k<8;k++) for(int l=0;l<8;l++)
@@ -27,11 +27,6 @@ int main(){
     printf("%d",minimum);
 }
 
-// solved in    19 att. | 외부 디버깅 툴 사용(Dev C++)
-// WA 5 | RTE 0 | CTE 9 | TLE 4
+// 19트에 해결 | WA 5 | CTE 9 | TLE 4
+//   백준 티어 : S4
 // 오랜만에 C++ 잡아서 파이썬식 문법을 자주 씀.. print(minimum)도 그렇고 배열 대괄호로 초기화함
-
-// solved at: 2024. 09. 18. 16:00:59
-//                 Difficulty : Silver 4
-//             Algorithm Type : Brute Force
-// solved.ac Tier: 0,487(+06) : Silver 3
