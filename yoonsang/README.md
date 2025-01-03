@@ -4,10 +4,6 @@
 (Week 8-9) 난도 S4 이상, Div2 B 이후 문제만 셈<br>
 (week 10-) 난도 S1 이상, Div2 B 이후 문제만 셈
 
-** Week 10 주요 성과                     <br>
- :: 백트래킹 이해 완료                    <br>
- :: 배낭 문제(dp) 습득(이해는 안 됨)      <br>
-
 ** todo                                 <br>
  :: C++에서 구조체와 클래스 배우기        <br>
  :: 아래 유형들에 대한 연습:              <br>
@@ -36,3 +32,4 @@
 | <p align="center">10</p> | [acmicpc15686: 치킨 배달](https://www.acmicpc.net/problem/15686)<br>[acmicpc9251: LCS](https://www.acmicpc.net/problem/9251)<br>[acmicpc12865: 평범한 배낭](https://www.acmicpc.net/problem/12865)<br>[acmicpc17070: 파이프 옮기기 1](https://www.acmicpc.net/problem/17070)<br>[acmicpc1504: 특정한 최단 경로](https://www.acmicpc.net/problem/1504)<br>[acmicpc1967: 트리의 지름](https://www.acmicpc.net/problem/1967) | <p align="center">G5<br>G5<br>G5<br>G5<br>G4<br>G4</p> | <p align="center"> 241121<br>241123<br>241123<br>241125<br>241125<br>241126 </p> |
 | <p align="center">11</p> | [acmicpc1987: 알파벳](https://www.acmicpc.net/problem/1987)<br>[acmicpc1753: 최단거리](https://www.acmicpc.net/problem/1753)<br>[acmicpc1495: 기타리스트](https://www.acmicpc.net/problem/1495) | <p align="center">G4<br>G4<br>S1</p> | <p align="center"> 241127<br>241128<br>241205 </p> |
 | <p align="center">13</p> | [acmicpc1351: 무한수열](https://www.acmicpc.net/problem/1351)<br>[acmicpc1354: 무한수열 2](https://www.acmicpc.net/problem/1354) | <p align="center">G5<br>G5</p> | <p align="center"> 241219<br>241219 </p> |
+| <p align="center">15</p> | [acmicpc1043: 거짓말](https://www.acmicpc.net/problem/1043)<br>[acmicpc2448: 별 찍기 11](https://www.acmicpc.net/problem/2448)<br>[acmicpc15989: 1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)<br>[acmicpc4179: 불!](https://www.acmicpc.net/problem/4179)<br>[acmicpc1238: 파티](https://www.acmicpc.net/problem/1238) | <p align="center">G4<br>G4<br>G5<br>G3<br>G3</p> | <p align="center"> 241226<br>250102<br>250102<br>250102<br>250102 </p> |
