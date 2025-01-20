@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class p1865_wormhole {
+public class p1865_wormhole_no {
 
     static final int INF = 987654321;
 
