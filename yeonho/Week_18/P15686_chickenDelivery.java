@@ -66,6 +66,7 @@ public class P15686_chickenDelivery {
         }
         // 주변순회
         // 갈 수 있으면 방문표시하고 들어가기!
+        // {(1, 2), (3, 4), (3, 5)}
         for (int i = current; i < chickens.size(); i++) {
             visited[i] = true;
             backtrack(i + 1, chosen + 1);
