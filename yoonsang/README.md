@@ -1,22 +1,10 @@
 주 5문제, 3일 이상 풀이 목표<br>
-(Week 1-2) B1 이상 난도 문제만 셈<br>
-(Week 3-7) 난도 S5 이상, Div2 B 이후 문제만 셈<br>
-(Week 8-9) 난도 S4 이상, Div2 B 이후 문제만 셈<br>
-(week 10-) 난도 S1 이상, Div2 B 이후 문제만 셈
-
-** todo                                 <br>
- :: C++에서 구조체와 클래스 배우기        <br>
- :: 아래 유형들에 대한 연습:              <br>
- :: 구현: S1 이상                        <br>
- :: 문자열: S1 이상                      <br>
- :: 수학: G5 이상                        <br>
- :: 자료구조: S1 이상                    <br>
- :: 그리디: S1 이상                      <br>
- :: DP: S1 이상                 (어려움) <br>
- :: dfs: S1 이상                        <br>
- :: bfs: G5 이상                        <br>
- :: backtracking: S2 이상       (어려움) <br>
- :: Shortest Path: G5 이상      (어려움) <br> (다익스트라)
+(Week 01-02) B1 이상 난도 문제만 셈<br>
+(Week 03-07) 난도 S5 이상, Div2 B 이후 문제<br>
+(Week 08-09) 난도 S4 이상, Div2 B 이후 문제<br>
+(Week 10-19) 난도 S1 이상, Div2 B 이후 문제<br>
+(Week 20-20) 난도 G5 이상, Div2 B 이후 문제<br>
+(Week 21-  ) 난도 G4 이상, Div2 B 이후 문제
 
 | **Week** | **문제** | **난이도** | **해결일** |
 | -------- | -------- | --------- | ---------- |
@@ -35,4 +23,4 @@
 | <p align="center">15</p> | [acmicpc1043: 거짓말](https://www.acmicpc.net/problem/1043)<br>[acmicpc2448: 별 찍기 11](https://www.acmicpc.net/problem/2448)<br>[acmicpc15989: 1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)<br>[acmicpc4179: 불!](https://www.acmicpc.net/problem/4179)<br>[acmicpc1238: 파티](https://www.acmicpc.net/problem/1238) | <p align="center">G4<br>G4<br>G5<br>G3<br>G3</p> | <p align="center"> 241226<br>250102<br>250102<br>250102<br>250102 </p> |
 | <p align="center">17</p> | [acmicpc9663: N-Queen](https://www.acmicpc.net/problem/9663)<br>[acmicpc5639: 이진 검색 트리](https://www.acmicpc.net/problem/5639) | <p align="center">G4<br>G4</p> | <p align="center"> 250112<br>250112 </p> |
 | <p align="center">18</p> | [acmicpc9935: 문자열 폭발](https://www.acmicpc.net/problem/9935)<br>[acmicpc10830: 행렬 제곱](https://www.acmicpc.net/problem/10830)<br>[acmicpc11404: 플로이드](https://www.acmicpc.net/problem/11404)<br>[acmicpc12851: 숨바꼭질2](https://www.acmicpc.net/problem/12851)<br>[acmicpc11054: 가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054) | <p align="center">G4<br>G4<br>G4<br>G4<br>G4 </p> | <p align="center"> 250116<br>250123<br>250123<br>250123<br>250123 </p> |
-| <p align="center">19</p> | [acmicpc14502: 연구소](https://www.acmicpc.net/problem/14502)<br>[acmicpc13172: Σ](https://www.acmicpc.net/problem/13172)<br>[acmicpc14938: 서강그라운드](https://www.acmicpc.net/problem/14938)<br>[acmicpc17144: 미세먼지 안녕!](https://www.acmicpc.net/problem/17144)<br>[acmicpc30805: 사전 순 최대 공통 부분 수열](https://www.acmicpc.net/problem/30805)<br>[acmicpc1865: 웜홀](https://www.acmicpc.net/problem/1865)<br>[acmicpc2206: 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)<br>[acmicpc2638: 치즈](https://www.acmicpc.net/problem/2638)<br>[acmicpc11779: 치즈](https://www.acmicpc.net/problem/11779)<br>[acmicpc16236: 아기 상어](https://www.acmicpc.net/problem/16236) | <p align="center">G4<br>G4<br>G4<br>G4<br>G4<br>G3<br>G3<br>G3<br>G3<br>G3 </p> | <p align="center"> 250126<br>250126<br>250126<br>250126<br>250128<br>250129<br>250129<br>250129<br>250130<br>250130 </p> |
+| <p align="center">19</p> | [acmicpc14502: 연구소](https://www.acmicpc.net/problem/14502)<br>[acmicpc13172: Σ](https://www.acmicpc.net/problem/13172)<br>[acmicpc14938: 서강그라운드](https://www.acmicpc.net/problem/14938)<br>[acmicpc17144: 미세먼지 안녕!](https://www.acmicpc.net/problem/17144)<br>[acmicpc30805: 사전 순 최대 공통 부분 수열](https://www.acmicpc.net/problem/30805)<br>[acmicpc1865: 웜홀](https://www.acmicpc.net/problem/1865)<br>[acmicpc2206: 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)<br>[acmicpc2638: 치즈](https://www.acmicpc.net/problem/2638)<br>[acmicpc11779: 최소비용 구하기 2](https://www.acmicpc.net/problem/11779)<br>[acmicpc16236: 아기 상어](https://www.acmicpc.net/problem/16236) | <p align="center">G4<br>G4<br>G4<br>G4<br>G4<br>G3<br>G3<br>G3<br>G3<br>G3 </p> | <p align="center"> 250126<br>250126<br>250126<br>250126<br>250128<br>250129<br>250129<br>250129<br>250130<br>250130 </p> |
