@@ -32,6 +32,15 @@ public class P16236_babyShark {
         }
     }
 
+    // class X {
+    // int x;
+
+    // @Override
+    // public int compareTo(int o){
+    // return this.x - o.x;
+    // }
+    // }
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
